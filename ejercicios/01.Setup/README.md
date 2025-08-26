@@ -12,7 +12,7 @@ Este ejercicio te ayudará a crear y ejecutar tu primer workflow
 
 ---
 
-## 🔟 Pasos
+## Pasos
 
 ### 1.  Nuevo repositorio
 Crea un repositorio nuevo en GitHub
@@ -42,3 +42,4 @@ git push origin main
 ```
 
 ### 5.  Ve a **Actions** y observa la ejecución.
+
