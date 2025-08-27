@@ -22,20 +22,28 @@ Este ejercicio te ayudará a crear y ejecutar tu primer workflow
 name: Uso de Variables y Secretos
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
 jobs:
-  mostrar-secretos:
+  print-secrets-token:
     runs-on: ubuntu-latest
     steps:
       - name: Mostrar variable de entorno
-        run: echo "Variable de entorno: ${{ env.MI_VARIABLE }}"
         env:
           MI_VARIABLE: "ValorDeEjemplo"
-      
-      - name: Mensaje con secreto
-        run: echo "Secreto guardado correctamente"
+        run: |
+         echo "Variable de entorno: ${{ env.MI_VARIABLE }}"
+      - name: Visualizacion de Secretos
+        shell: bash
         env:
-          SECRETO: ${{ secrets.MI_SECRETO }}
+         SUPER_SECRET: ${{ secrets.MI_SECRETO }}
+        run: |
+         echo "Tu Mayor secreto es: $SUPER_SECRET, vaya no puede conocerse..."
+      - name: Visualizacion de variables y comandos
+        shell: bash
+        env:
+         SUPER_SECRET: ${{ secrets.MI_SECRETO }}
+        run: |
+         echo "Primeras 3 letras del secreto: "$(cut -c 1-3 <<< $SUPER_SECRET)", es correcto?"
 ```
 ### 4. Haz `commit` y `Push` (sin olvidar `add`). **Nota: los secretos nunca se imprimen en los logs**
+
