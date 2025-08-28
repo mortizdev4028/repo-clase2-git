@@ -1,4 +1,4 @@
-# 🧪 Ejercicio 02: Variables y secretos
+# 🧪 Ejercicio 03: Jobs y Steps
 
 Este ejercicio te ayudará a crear y ejecutar tu primer workflow
 * Cada job se ejecuta en un runner separado.
@@ -81,5 +81,6 @@ git push origin main
 ```
 
 ### 9. Observa las ejecuciones de los jobs en ´Actions´
+
 
 
