@@ -17,4 +17,3 @@ Esta es una lista del orden recomendado para realizar los ejercicios.
 - [05. Automatización y artifacts](./ejercicios/05.Automatizacion/README.md)
 - [06. Workflow_dispatch básico](./ejercicios/06.Dispatch/README.md)
 - [07. Integración de GitHub Actions con Discord](./ejercicios/08.Discord_webhook/README.md)
->>>>>>> e8303d2ed70363d9c81bff84127f3914082efdcb
