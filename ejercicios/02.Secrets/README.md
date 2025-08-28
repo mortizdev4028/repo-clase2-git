@@ -47,3 +47,7 @@ jobs:
 ```
 ### 4. Haz `commit` y `Push` (sin olvidar `add`). **Nota: los secretos nunca se imprimen en los logs**
 
+### 5. Revisa la ejecucion en `Actions` y visualiza el log de la ejecucion de los 3 steps.
+
+
+
