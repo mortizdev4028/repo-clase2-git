@@ -89,3 +89,9 @@ git push origin main
 ### 8. Haz commit y push de los cambios realizados
 
 ### 9. Observa las ejecuciones de los jobs en ´Actions´. Revisa que los 2 test se han ejecutado correctamente
+
+### 10. Sal del entorno virtual de `Python`
+```bash copy
+deactivate
+```
+
