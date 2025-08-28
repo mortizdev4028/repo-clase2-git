@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# repo-clase2-git
-=======
 # Clase 2 Git Pontia Tech - Ejercicios y ejemplos
 
 ## ¿Porqué de estos ejemplos?
