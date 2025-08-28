@@ -80,7 +80,8 @@ git commit -m "Ejercicio 3: Jobs en secuencial"
 git push origin main
 ```
 
-### 9. Observa las ejecuciones de los jobs en ´Actions´
+### 9. Observa las ejecuciones de los jobs en `Actions`
+
 
 
 
