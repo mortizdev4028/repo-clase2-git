@@ -16,4 +16,4 @@ Esta es una lista del orden recomendado para realizar los ejercicios.
 - [04. Pruebas automáticas](./ejercicios/04.Test/README.md)
 - [05. Automatización y artifacts](./ejercicios/05.Automatizacion/README.md)
 - [06. Workflow_dispatch básico](./ejercicios/06.Dispatch/README.md)
-- [07. Workflow_dispatch con inputs](./ejercicios/07.Dispatch_inputs/README.md)
+- [07. Workflow_dispatch con inputs](./ejercicios/08.Discord_webhook/README.md)
