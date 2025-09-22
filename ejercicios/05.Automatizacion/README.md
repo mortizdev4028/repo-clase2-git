@@ -25,8 +25,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - 
-
       - name: Crear archivo de ejemplo
         run: echo "Contenido del artifact" > archivo.txt
 
@@ -50,3 +48,4 @@ git push origin main
 
 ### 6. Descarga el artifact creado y visualiza su contenido
 Recuerda que el texto `Contenido del artifact` lo hemos generado en tiempo de ejecucion del workflow
+
